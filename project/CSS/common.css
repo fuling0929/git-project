@@ -1,0 +1,66 @@
+/* 各个网页相同模块的重复样式 */
+
+/* 版心剧中 */
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* 快捷导航 */
+.shortcut {
+    height: 75px;
+    margin: 0 auto;
+    background-color: #3976ff;
+}
+
+.shortcut .wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+
+}
+
+/* logo */
+.shortcut .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shortcut .logo span {
+    display: block;
+    margin-left: 15px;
+    font-size: 26px;
+    color: aliceblue;
+}
+
+.shortcut .logo a {
+    display: block;
+    width: 220px;
+    height: 75px;
+    background-image: url(../images/logo.png);
+    font-size: 0;
+}
+
+.shortcut ul {
+    display: flex;
+    line-height: 75px;
+}
+
+.shortcut .nav li {
+    margin-right: 26px;
+}
+
+.shortcut .nav li:hover {
+    transform: scale(1.2);
+
+}
+
+.shortcut .nav li a {
+    color: aliceblue;
+    font-size: 20Epx;
+}
+
+.shortcut .nav li a:hover {
+    color: orangered;
+}

@@ -1,0 +1,205 @@
+/* register */
+
+#login {
+    position: relative;
+    height: 690px;
+    margin-top: 65px;
+    color: aliceblue;
+    border: 1px solid #0fe5cd;
+    background-image: url(../images/b.png);
+}
+
+#login h2 {
+    padding-left: 24px;
+    height: 52px;
+    line-height: 52px;
+    font-weight: 400;
+    box-shadow: 1px 1px 1px rgba(6, 230, 11, 0.3);
+}
+
+#login #logon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 18px #333;
+    color: #333;
+    border-radius: 15px;
+}
+
+#login #logon h1 {
+    margin-top: 70px;
+    padding-top: 20px;
+    height: 70px;
+    line-height: 46px;
+}
+
+#login #logon input {
+    margin: 15px 0;
+    width: 280px;
+    height: 38px;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+}
+
+#login #logon .inp {
+    padding-left: 40px;
+    background-color: rgba(236, 224, 224, 0.2);
+}
+
+#login #logon .inp::placeholder {
+    color: rgb(227, 220, 220);
+}
+
+#logon span {
+    position: relative;
+
+}
+
+#logon span i {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+
+#logon .iconfont {
+    font-size: 18px;
+}
+
+
+#login #logon .sub {
+    width: 280px;
+    height: 38px;
+    background-color: #8391d7;
+
+}
+
+#login #logon .sub:hover {
+    transform: scale(0.95);
+}
+
+.register {
+    float: right;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.register a {
+    color: red;
+}
+
+.log_body {
+    width: 600px;
+    margin: 50px auto 0;
+    font-size: 16px;
+}
+
+
+
+
+
+
+/* footer */
+footer {
+    margin-top: 46px;
+    height: 220px;
+    background-color: #4fd9ff;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .left {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    width: 300px;
+    height: 200px;
+    border-right: 1px solid whitesmoke;
+    background-color: #4fd9ff;
+}
+
+.footer .left p {
+    margin: 20px 0;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: white;
+}
+
+.footer .left button {
+    width: 140px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    color: whitesmoke;
+    border: 1px solid white;
+    background-color: #4fd9ff;
+}
+
+.footer .left button:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: #1bf882;
+}
+
+.footer .center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 24px;
+    width: 350px;
+}
+
+
+.footer .center dt {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: aliceblue;
+}
+
+.footer .center a {
+    display: block;
+    width: 70px;
+    height: 36px;
+    font-size: 14px;
+    color: azure;
+}
+
+.footer .last {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 220px;
+}
+
+.footer .last div {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    height: 180px;
+    align-items: center;
+    color: azure;
+}
+
+.footer .last img {
+    margin-top: 32px;
+}
+
+.footer .last h4 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+
+}

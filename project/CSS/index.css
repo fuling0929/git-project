@@ -1,0 +1,362 @@
+/* 首页样式 */
+
+/* banner */
+.banner {
+    height: 330px;
+    overflow: hidden;
+}
+
+/* 精品推荐 */
+.recommend {
+    margin-top: 8px !important;
+    padding: 0 20px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 0px rgba(211, 211, 211, 0.5);
+}
+
+.recommend ul li {
+    width: 160px;
+    overflow: hidden;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.recommend ul li:hover {
+    transform: scale(1.05);
+    background-color: rgba(211, 211, 211, 0.3);
+}
+
+.recommend ul .icon-guanjun,
+.recommend ul .icon-xunzhang,
+.recommend ul .icon-jiaocheng,
+.recommend ul .icon-lipin,
+.recommend ul .icon-guanjun {
+    font-size: 20px;
+    color: orangered;
+}
+
+.recommend ul li a span {
+    color: #595f60;
+}
+
+.recommend ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info {
+    height: 100px;
+    align-items: center;
+}
+
+.info h2,
+.info p {
+    margin: auto;
+    height: 50px;
+    color: #252b3a;
+    text-align: center;
+    line-height: 50px;
+}
+
+.info p a {
+    font-size: 16px;
+    padding-left: 10px;
+    color: red;
+}
+
+.center {
+    margin-bottom: 30px !important;
+    display: flex;
+    height: 320px;
+    background-color: #25d5ff;
+    box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.center .left {
+    width: 160px;
+    height: 320px;
+    background-color: #0091ea;
+}
+
+.center .left .nav ul {
+    margin: 10px 0;
+}
+
+.center .left .nav ul li {
+    height: 60px;
+    padding-left: 16px;
+    line-height: 60px;
+}
+
+.center .left .nav ul li:hover {
+    border-radius: 8px;
+    background-color: #335168;
+    opacity: 0.5
+}
+
+
+.center .left .nav ul li a {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+}
+
+.center .right {
+    position: relative;
+    display: flex;
+    width: 840px;
+    height: 320px;
+}
+
+.center .right .box1 {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    height: 320px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.center .right .box1 div {
+    width: 200px;
+    height: 125px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.center .right .box1 div:hover {
+    transform: scale(0.95);
+    border-radius: 11px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.active {
+    z-index: 6;
+}
+
+.slider_time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    height: 260px;
+    background-color: #ff857a;
+    box-shadow: 2px 3px 2px rgba(223, 7, 48, 0.3);
+}
+
+.slider_time .left {
+    width: 190px;
+    height: 260px;
+    background-color: #ff3c28;
+}
+
+.slider_time .left h1 {
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+.slider_time .left .min {
+    width: 48px;
+    height: 48px;
+    margin: 15px auto;
+    border-radius: 50%;
+    background-image: url(../images/spirit.png);
+    background-position: -1px -1px;
+
+}
+
+.slider_time .left #p1 {
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.slider_time .left #p1 span {
+    height: 24px;
+}
+
+.slider_time .left #p2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    height: 50px;
+
+}
+
+span {
+    display: inline-block;
+}
+
+.slider_time .left #p2 span {
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.slider_time .right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.slider_time .right .box {
+    width: 250px;
+    height: 260px;
+    overflow: hidden;
+    box-shadow: 2px 3px 2px rgba(223, 7, 48, 0.3);
+    border-radius: 10px;
+}
+
+.slider_time .right .box a {
+    display: flex;
+    position: relative;
+}
+
+.slider_time .right .box #bn1,
+.slider_time .right .box #bn2,
+.slider_time .right .box #bn3 {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 80px;
+    top: 190px;
+    color: #fff;
+    font-size: 20px;
+
+    border-radius: 15px;
+    transform: translate(-50% -50%);
+    background-color: #f7836a;
+    transition: all 0.3s;
+}
+
+.slider_time .right .box #bn1:hover {
+    background-color: #d83914;
+    transform: scale(0.97);
+}
+
+.slider_time .right .box #bn2:hover {
+    background-color: #d83914;
+    transform: scale(0.97);
+}
+
+.slider_time .right .box #bn3:hover {
+    background-color: #d83914;
+    transform: scale(0.97);
+}
+
+.cove {
+    height: 256px;
+    margin-top: 25px !important;
+    background-image: url(../images/h1.png);
+    background-size: cover;
+}
+
+
+/* footer */
+footer {
+    margin-top: 46px;
+    height: 220px;
+    background-color: #4fd9ff;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .left {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    width: 300px;
+    height: 200px;
+    border-right: 1px solid whitesmoke;
+    background-color: #4fd9ff;
+}
+
+.footer .left p {
+    margin: 20px 0;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: white;
+}
+
+.footer .left button {
+    width: 140px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    color: whitesmoke;
+    border: 1px solid white;
+    background-color: #4fd9ff;
+}
+
+.footer .left button:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: #1bf882;
+}
+
+.footer .cen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 220px;
+}
+
+
+.footer .cen dt {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: aliceblue;
+}
+
+.footer .cen a {
+    display: block;
+    width: 70px;
+    height: 36px;
+    font-size: 14px;
+    color: azure;
+}
+
+.footer .last {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 220px;
+}
+
+.footer .last div {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    height: 180px;
+    align-items: center;
+    color: azure;
+}
+
+.footer .last img {
+    margin-top: 20px;
+}
+
+.footer .last h4 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+
+}

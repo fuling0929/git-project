@@ -1,0 +1,39 @@
+/* 基础公共样式: 清除默认样式 + 设置通用样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 清除li的默认样式 */
+ul,
+ol {
+    list-style: none;
+
+}
+
+/* 指定了一个14像素大小，行高为1.5倍的字体样式，首选字体是"Microsoft Yahei" 
+如果不可用，则依次使用"Hiragino Sans GB" 、"Heiti SC" 、"wenQuanYi Micro Hei" 
+最后备选字体是sans-serif。 */
+body {
+    font: 14px/1.5 "Microsoft Yahei", "Hiragion Sans GB", "Heiti SC", "wenQuanYi Micro Hei", sans-serif;
+    color: #333;
+    background-color: #81daf8;
+}
+
+/* 清除a的默认样式 */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* 清除倾斜的默认样式 */
+em,
+i {
+    font-style: normal;
+}
+
+/* 设置垂直对齐方式为居中 */
+img {
+    vertical-align: middle;
+}
